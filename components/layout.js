@@ -25,6 +25,7 @@ const Layout = ({ title, description, children, className }) => {
           }
           a {
             color: #fff;
+            border-color: #fff;
           }
           @media (prefers-color-scheme: light) {
            body {
@@ -33,6 +34,12 @@ const Layout = ({ title, description, children, className }) => {
            }
            a {
              color: #111;
+             border-color: #111;
+           }
+          }
+          @media (prefers-color-scheme: dark) {
+           .invert {
+             filter: invert();
            }
           }
         `}
