@@ -36,25 +36,29 @@ const Index = () => (
             text='Ko-fi'
             rel='me'
             url='https://ko-fi.com/melkat'
-            qrCode=''
+            color='#29ABE0'
+            qrCode='/static/qr/ko-fi.png'
           />
           <ListLink
             text='Paypal'
             rel='me'
             url='https://www.paypal.me/melaniekat'
-            qrCode=''
+            color='#149BDE'
+            qrCode='/static/qr/paypal.png'
           />
           <ListLink
             text='Venmo'
             rel='me'
             url='https://venmo.com/ZicklePop'
-            qrCode=''
+            color='#3F94CF'
+            qrCode='/static/qr/venmo.png'
           />
           <ListLink
-            text='Square Cash'
+            text='Cash'
             rel='me'
             url='https://cash.app/$melkat39'
-            qrCode=''
+            color='#17B742'
+            qrCode='/static/qr/cash.png'
           />
         </ul>
       </article>

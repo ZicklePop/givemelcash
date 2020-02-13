@@ -2,21 +2,14 @@
 
 exports[`component - layout should render 1`] = `
 <li
-  className="mv2 tc"
+  className="mv2 tc ttu tracked"
 >
-  
   <a
-    className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75 white b--white"
-    style={
-      Object {
-        "backgroundColor": "",
-      }
-    }
-  >
-    
-  </a>
+    className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
+  />
   <a
-    className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20 white b--white"
+    className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+    onClick={[Function]}
   >
     QR
   </a>
@@ -25,22 +18,17 @@ exports[`component - layout should render 1`] = `
 
 exports[`component - layout should render with props 1`] = `
 <li
-  className="mv2 tc"
+  className="mv2 tc ttu tracked"
 >
-  
   <a
-    className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75 white b--white"
+    className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
     href="https://www.uglytarantula.com"
-    style={
-      Object {
-        "backgroundColor": "",
-      }
-    }
   >
     Ugly Tarantula
   </a>
   <a
-    className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20 white b--white"
+    className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+    onClick={[Function]}
   >
     QR
   </a>

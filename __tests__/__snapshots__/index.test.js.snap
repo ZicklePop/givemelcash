@@ -2,7 +2,7 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-2720692559  vh-100 dt w-100"
+  className="jsx-3688675360  vh-100 dt w-100"
 >
   <div
     className="dtc v-mid tc"
@@ -29,89 +29,69 @@ exports[`page - index should render 1`] = `
         className="list pl0 tl"
       >
         <li
-          className="mv2 tc"
+          className="mv2 tc ttu tracked"
         >
-          
           <a
-            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
             href="https://ko-fi.com/melkat"
             rel="me"
-            style={
-              Object {
-                "backgroundColor": "",
-              }
-            }
           >
             Ko-fi
           </a>
           <a
-            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+            onClick={[Function]}
           >
             QR
           </a>
         </li>
         <li
-          className="mv2 tc"
+          className="mv2 tc ttu tracked"
         >
-          
           <a
-            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
             href="https://www.paypal.me/melaniekat"
             rel="me"
-            style={
-              Object {
-                "backgroundColor": "",
-              }
-            }
           >
             Paypal
           </a>
           <a
-            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+            onClick={[Function]}
           >
             QR
           </a>
         </li>
         <li
-          className="mv2 tc"
+          className="mv2 tc ttu tracked"
         >
-          
           <a
-            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
             href="https://venmo.com/ZicklePop"
             rel="me"
-            style={
-              Object {
-                "backgroundColor": "",
-              }
-            }
           >
             Venmo
           </a>
           <a
-            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+            onClick={[Function]}
           >
             QR
           </a>
         </li>
         <li
-          className="mv2 tc"
+          className="mv2 tc ttu tracked"
         >
-          
           <a
-            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
             href="https://cash.app/$melkat39"
             rel="me"
-            style={
-              Object {
-                "backgroundColor": "",
-              }
-            }
           >
-            Square Cash
+            Cash
           </a>
           <a
-            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20 white b--white"
+            className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+            onClick={[Function]}
           >
             QR
           </a>
