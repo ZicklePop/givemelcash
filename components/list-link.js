@@ -11,33 +11,33 @@ const cx = {
 }
 
 const ListLink = ({ className, text, rel, url }) => (
-    <li className={className}>
+  <li className={className}>
+    <a
+      className={`${cx.a} ${cx.text}`}
+      rel={rel}
+      href={url}
+    >
+      {text}
+    </a>
+    <Link href={`/qr?code=${lowerFirst(text)}`}>
       <a
-        className={`${cx.a} ${cx.text}`}
-        rel={rel}
-        href={url}
+        className={`${cx.a} ${cx.qr}`}
       >
-        {text}
-      </a>
-      <Link href={`/qr?code=${lowerFirst(text)}`}>
-        <a
-          className={`${cx.a} ${cx.qr}`}
-        >
           QR
-        </a>
-      </Link>
-    </li>
+      </a>
+    </Link>
+  </li>
 )
 
 ListLink.propTypes = {
   className: PropTypes.string,
   text: PropTypes.string,
   rel: PropTypes.string,
-  url: PropTypes.string,
+  url: PropTypes.string
 }
 
 ListLink.defaultProps = {
-  className: cx.li,
+  className: cx.li
 }
 
 export default ListLink
