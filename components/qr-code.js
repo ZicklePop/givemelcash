@@ -12,7 +12,7 @@ const QRCode = ({ className, src }) => (
     <div className={cx.imgContainer}>
       <img
         src={src}
-        alt={'Press to go back.'}
+        alt='Press to go back.'
         className={cx.img}
       />
     </div>

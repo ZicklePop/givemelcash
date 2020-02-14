@@ -5,11 +5,13 @@ exports[`component - layout should render 1`] = `
   className="mv2 tc ttu tracked"
 >
   <a
-    className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
+    className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
   />
   <a
-    className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+    className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--right ml1 w-20"
+    href="/qr?code="
     onClick={[Function]}
+    onMouseEnter={[Function]}
   >
     QR
   </a>
@@ -21,14 +23,16 @@ exports[`component - layout should render with props 1`] = `
   className="mv2 tc ttu tracked"
 >
   <a
-    className="f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75"
+    className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
     href="https://www.uglytarantula.com"
   >
     Ugly Tarantula
   </a>
   <a
-    className="f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20"
+    className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--right ml1 w-20"
+    href="/qr?code=ugly Tarantula"
     onClick={[Function]}
+    onMouseEnter={[Function]}
   >
     QR
   </a>
