@@ -1,48 +1,43 @@
-import React, { useState } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import QRCode from './qr-code'
+import Link from 'next/link'
+import lowerFirst from 'lodash/lowerFirst'
 
 const cx = {
   li: 'mv2 tc ttu tracked',
-  a: 'f5 fw4 pointer no-underline br3 br--left ba bw1 ph3 pv2 mb2 grow tc dib w-75',
-  qr: 'f5 fw4 pointer no-underline br3 br--right ba bw1 pv2 ml1 mb2 grow tc dib w-20'
+  a: 'f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green',
+  text: 'br--left ph3 w-75',
+  qr: 'br--right ml1 w-20'
 }
 
-const ListLink = ({ className, text, rel, url, urlClassName, qrCode }) => {
-  const [show, setShow] = useState(false)
-
-  return (
+const ListLink = ({ className, text, rel, url }) => (
     <li className={className}>
       <a
-        className={urlClassName}
+        className={`${cx.a} ${cx.text}`}
         rel={rel}
         href={url}
       >
         {text}
       </a>
-      <a
-        className={cx.qr}
-        onClick={() => { setShow(true) }}
-      >
-        QR
-      </a>
-      {show && <QRCode src={qrCode} onClick={() => { setShow(false) }} />}
+      <Link href={`/qr?code=${lowerFirst(text)}`}>
+        <a
+          className={`${cx.a} ${cx.qr}`}
+        >
+          QR
+        </a>
+      </Link>
     </li>
-  )
-}
+)
 
 ListLink.propTypes = {
   className: PropTypes.string,
   text: PropTypes.string,
   rel: PropTypes.string,
   url: PropTypes.string,
-  urlClassName: PropTypes.string,
-  qrCode: PropTypes.string
 }
 
 ListLink.defaultProps = {
   className: cx.li,
-  urlClassName: cx.a
 }
 
 export default ListLink
