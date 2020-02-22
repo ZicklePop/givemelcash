@@ -9,7 +9,7 @@ const cx = {
 const Layout = ({ title, description, children, className }) => {
   return (
     <main className={`${cx.main} ${className}`}>
-      <Head>
+      <Head lang='en'>
         <title>{title}</title>
         <meta name='description' content={description} />
         <meta name='twitter:title' content={title} />
@@ -28,19 +28,19 @@ const Layout = ({ title, description, children, className }) => {
             border-color: #fff;
           }
           @media (prefers-color-scheme: light) {
-           body {
-             color: #111;
-             background: #fff;
-           }
-           a {
-             color: #111;
-             border-color: #111;
-           }
+            body {
+              color: #111;
+              background: #fff;
+            }
+            a {
+              color: #111;
+              border-color: #111;
+            }
           }
           @media (prefers-color-scheme: dark) {
-           .invert {
-             filter: invert();
-           }
+            .invert {
+              filter: invert();
+            }
           }
         `}
       </style>

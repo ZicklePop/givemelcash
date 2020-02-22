@@ -2,7 +2,7 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-3688675360  vh-100 dt w-100"
+  className="jsx-3902543656  vh-100 dt w-100"
 >
   <div
     className="dtc v-mid tc"
