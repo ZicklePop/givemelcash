@@ -5,13 +5,29 @@ import QRCode from '../components/qr-code'
 import get from 'lodash/get'
 import upperFirst from 'lodash/upperFirst'
 
+const cx = {
+  main: 'vh-100 dt w-100',
+  container: 'dtc v-mid tc',
+  article: 'center sans-serif',
+  a: 'f5 fw4 ph3 pointer tracked no-underline br3 ba bw1 pv2 mb2 grow tc dib b--gray'
+}
+
 const QR = ({ title, description, image }) => (
-  <Layout title={title} description={description}>
-    <Link href='/'>
-      <a>
+  <Layout
+    title={title}
+    description={description}
+    className={cx.main}
+  >
+    <div className={cx.container}>
+      <article className={cx.article}>
         <QRCode src={image} />
-      </a>
-    </Link>
+        <Link href='/'>
+          <a className={cx.a}>
+            {'← Back home'}
+          </a>
+        </Link>
+      </article>
+    </div>
   </Layout>
 )
 
