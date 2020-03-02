@@ -2,20 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const cx = {
-  container: 'vh-100 w-100 dt absolute absolute--fill bg-white pointer invert',
-  imgContainer: 'dtc v-mid tc',
+  container: 'v-mid tc invert',
   img: ''
 }
 
 const QRCode = ({ className, src }) => (
-  <div className={className}>
-    <div className={cx.imgContainer}>
-      <img
-        src={src}
-        alt='Press to go back.'
-        className={cx.img}
-      />
-    </div>
+  <div className={cx.container}>
+    <img
+      src={src}
+      alt='Press to scan.'
+      className={cx.img}
+    />
   </div>
 )
 
