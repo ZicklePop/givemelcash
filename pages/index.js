@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import ListLink from '../components/list-link'
 
 const cx = {
-  main: 'vh-100 dt w-100',
+  main: 'vh-75 dt w-100',
   container: 'dtc v-mid tc',
   article: 'mw5 center sans-serif f3 fw2 ph2',
   h1: 'lh-title fw2 f2',
