@@ -4,6 +4,7 @@
   "main": "server.js",
   "license": "Unlicense",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "dev": "next",
     "start": "next start",
     "build": "next build",
@@ -22,6 +23,9 @@
     "jest": "^25.1.0",
     "react-test-renderer": "^16.13.0",
     "standard": "^14.3.3"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
   },
   "jest": {
     "transform": {
