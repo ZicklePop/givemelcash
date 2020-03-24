@@ -47,7 +47,7 @@ const Index = () => (
           <ListLink
             text='Venmo'
             rel='me'
-            url='https://venmo.com/ZicklePop'
+            url='https://venmo.com/melkat'
             qrCode='/static/qr/venmo.png'
           />
           <ListLink
