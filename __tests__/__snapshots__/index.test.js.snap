@@ -71,7 +71,7 @@ exports[`page - index should render 1`] = `
         >
           <a
             className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
-            href="https://venmo.com/ZicklePop"
+            href="https://venmo.com/melkat"
             rel="me"
           >
             Venmo
