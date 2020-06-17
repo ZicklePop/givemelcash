@@ -11,12 +11,12 @@ exports[`page - index should render 1`] = `
       className="mw5 center sans-serif f3 fw2 ph2"
     >
       <img
-        className="br-100 h4 w4 center dib ma3"
+        className="br-100 h4 w4 center dib ma3 o-30"
         src="/static/uglytarantula-commission.jpg"
         title="commission by @uglytarantula"
       />
       <h1
-        className="lh-title fw2 f2"
+        className="lh-title fw2 f2 strike"
       >
         <a
           className="no-underline"
@@ -25,6 +25,11 @@ exports[`page - index should render 1`] = `
           Give Mel Cash
         </a>
       </h1>
+      <p
+        className="lh-copy"
+      >
+        Please help those who need it most
+      </p>
       <ul
         className="list pl0 tl"
       >
@@ -32,7 +37,51 @@ exports[`page - index should render 1`] = `
           className="mv2 tc ttu tracked"
         >
           <a
-            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 w-100"
+            href="https://twitter.com/search?q=%23transcrowdfund"
+          >
+            #transcrowdfund
+          </a>
+        </li>
+        <li
+          className="mv2 tc ttu tracked"
+        >
+          <a
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 w-100"
+            href="https://www.translifeline.org"
+          >
+            Trans Lifeline
+          </a>
+        </li>
+        <li
+          className="mv2 tc ttu tracked"
+        >
+          <a
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 w-100"
+            href="https://www.thetrevorproject.org"
+          >
+            Trevor Project
+          </a>
+        </li>
+        <li
+          className="mv2 tc ttu tracked"
+        >
+          <a
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 w-100"
+            href="https://transgenderlawcenter.org"
+          >
+            Trans Law Center
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="list pl0 tl dn"
+      >
+        <li
+          className="mv2 tc ttu tracked"
+        >
+          <a
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 br--left w-75"
             href="https://ko-fi.com/melkat"
             rel="me"
           >
@@ -51,7 +100,7 @@ exports[`page - index should render 1`] = `
           className="mv2 tc ttu tracked"
         >
           <a
-            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 br--left w-75"
             href="https://www.paypal.me/melaniekat"
             rel="me"
           >
@@ -70,7 +119,7 @@ exports[`page - index should render 1`] = `
           className="mv2 tc ttu tracked"
         >
           <a
-            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 br--left w-75"
             href="https://venmo.com/melkat"
             rel="me"
           >
@@ -89,7 +138,7 @@ exports[`page - index should render 1`] = `
           className="mv2 tc ttu tracked"
         >
           <a
-            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green br--left ph3 w-75"
+            className="f5 fw4 pointer no-underline br3 ba bw1 pv2 mb2 grow tc dib b--green ph3 br--left w-75"
             href="https://cash.app/$melkat39"
             rel="me"
           >
