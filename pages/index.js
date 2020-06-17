@@ -21,7 +21,7 @@ const Index = () => (
         <img
           className={cx.img}
           src='/static/uglytarantula-commission.jpg'
-          title='commission by @uglytarantula'
+          title='commission by @rosygaze'
         />
         <h1 className={cx.h1}>
           <a
