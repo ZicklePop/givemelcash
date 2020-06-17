@@ -13,7 +13,7 @@ exports[`page - index should render 1`] = `
       <img
         className="br-100 h4 w4 center dib ma3 o-30"
         src="/static/uglytarantula-commission.jpg"
-        title="commission by @uglytarantula"
+        title="commission by @rosygaze"
       />
       <h1
         className="lh-title fw2 f2 strike"
