@@ -1,4 +1,3 @@
-import React from 'react'
 import renderer from 'react-test-renderer'
 import ListLink from '../components/list-link'
 
