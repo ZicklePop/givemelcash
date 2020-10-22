@@ -22,7 +22,7 @@ const QR = ({ title, description, image }) => (
         <QRCode src={image} />
         <Link href='/'>
           <a className={cx.a}>
-            {'← Back home'}
+            ← Back home
           </a>
         </Link>
       </article>

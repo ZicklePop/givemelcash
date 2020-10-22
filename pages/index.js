@@ -27,12 +27,12 @@ const Index = () => (
             className={cx.h1a}
             href='/'
           >
-            {'Give Mel Cash'}
+            Give Mel Cash
           </a>
         </h1>
 
         <p className={cx.p}>
-          {'Please help those who need it most'}
+          Please help those who need it most
         </p>
         <ul className={cx.ul}>
           <ListLink
