@@ -25,7 +25,7 @@ const ListLink = ({ className, text, rel, url, hasQR }) => (
         <a
           className={`${cx.a} ${cx.qr}`}
         >
-          {'QR'}
+          QR
         </a>
       </Link>
     )}
